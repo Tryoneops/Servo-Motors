@@ -1,0 +1,30 @@
+Task 2: Walking Algorithm for Humanoid Robot
+
+Walking Algorithm Steps:
+Initialize Position
+
+Set all servos (hip, knee, ankle) to a neutral standing position (90°).
+
+Shift Weight
+
+Slightly move the upper body to one side (e.g., shift center of mass over left leg) to prepare to lift the right leg.
+
+Lift Leg
+
+Raise the right leg by rotating the right hip servo forward (~60°) and bend the right knee servo (~120°).
+
+Move Leg Forward
+
+Extend the right leg forward (hip servo back to ~90°) while straightening the knee servo to prepare for the step.
+
+Place Foot Down
+
+Gently lower the right leg and return the weight back to the center.
+
+Repeat for Left Leg
+
+Shift body weight to the right leg, and repeat the same steps for the left leg.
+
+Loop
+
+Repeat steps 2 to 6 to continue walking.
